@@ -1,0 +1,7 @@
+[sshd-remote]
+port     = ssh
+logpath  = /var/log/remote.log
+backend  = polling
+maxretry = 5
+bantime  = 600
+findtime = 120
